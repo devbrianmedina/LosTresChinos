@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.guarantee.GuaranteeFragment"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:src="@drawable/banner_guarantee"
+                    android:scaleType="centerCrop"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="30dp"
+                    android:layout_marginTop="210dp"
+                    android:background="@drawable/rounded_corners"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:text="INFORMACION GARANTIAS"
+                        android:textStyle="bold"
+                        android:textSize="28sp"
+                        android:textColor="@color/black"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="20dp"
+                        android:layout_marginHorizontal="20dp"
+                        android:text="Consulta nuestra política de garantías sobre nuestros productos"
+                        android:textSize="18sp"
+                        android:textColor="@color/black"/>
+                </LinearLayout>
+            </FrameLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#748B75"
+                android:gravity="center">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:text="POLITICAS DE GARANTIA"
+                    android:textStyle="bold"
+                    android:textSize="28sp"
+                    android:textColor="@color/black"/>
+                <com.itess701.lostreschinos.components.LinkTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:text="1.- Garantía de Producto Defectuoso "
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    android:layout_marginHorizontal="20dp"
+                    android:textColor="@color/black"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="10dp"
+                    android:text="Garantizamos que todos nuestros productos están libres de defectos de fabricación. Si recibes un artículo defectuoso, lo reemplazaremos sin costo adicional."
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"/>
+                <com.itess701.lostreschinos.components.LinkTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:text="2.- Garantía de Satisfacción del Cliente"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    android:layout_marginHorizontal="20dp"
+                    android:textColor="@color/black"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="10dp"
+                    android:text="Si por alguna razón no estás completamente satisfecho con tu compra, aceptamos devoluciones dentro de un período específico (por ejemplo, 30 días) para un reembolso completo o cambio por otro producto."
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"/>
+                <com.itess701.lostreschinos.components.LinkTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:text="3.- Garantía de Durabilidad"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    android:layout_marginHorizontal="20dp"
+                    android:textColor="@color/black"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="10dp"
+                    android:text="Garantizamos la durabilidad de nuestros productos. Si un artículo se daña prematuramente debido a un defecto de fabricación, lo repararemos o reemplazaremos según corresponda."
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"/>
+                <com.itess701.lostreschinos.components.LinkTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:text="4.- Garantía de Asesoramiento Técnico"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    android:layout_marginHorizontal="20dp"
+                    android:textColor="@color/black"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="10dp"
+                    android:text="Ofrecemos asesoramiento técnico gratuito para ayudarte a elegir los productos adecuados para tus necesidades."
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"/>
+                <com.itess701.lostreschinos.components.LinkTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:text="5.- Garantía de Entrega"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    android:layout_marginHorizontal="20dp"
+                    android:textColor="@color/black"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="10dp"
+                    android:text="Garantizamos la entrega puntual de nuestros productos. Si tu pedido llega tarde sin una razón válida, te ofreceremos un descuento en tu próxima."
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"/>
+                <com.itess701.lostreschinos.components.LinkTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:text="6.- Garantía de Piezas de Repuesto"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    android:layout_marginHorizontal="20dp"
+                    android:textColor="@color/black"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="10dp"
+                    android:text="Proporcionamos acceso a piezas de repuesto para los productos que vendemos. Si alguna pieza se daña, te enviaremos la pieza de repuesto sin costo adicional."
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"/>
+                <com.itess701.lostreschinos.components.LinkTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:text="7.- Garantía de Desgaste Normal"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    android:layout_marginHorizontal="20dp"
+                    android:textColor="@color/black"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="10dp"
+                    android:text="Algunos productos ferreteros están sujetos al desgaste normal debido al uso regular. Garantizamos el rendimiento adecuado de estos productos durante un período específico y ofrecemos descuentos especiales para clientes recurrentes en futuras compras."
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"/>
+                <com.itess701.lostreschinos.components.LinkTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:text="8.- Garantía de Integridad del Producto"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    android:layout_marginHorizontal="20dp"
+                    android:textColor="@color/black"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_marginBottom="20dp"
+                    android:text="Garantizamos que todos nuestros productos son genuinos y auténticos. Si descubres que un producto que compraste en nuestra tienda es falso o de calidad inferior, te reembolsaremos el monto total de tu compra y tomaremos medidas legales contra los proveedores fraudulentos."
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/black">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:layout_marginHorizontal="5dp"
+                    android:layout_marginVertical="10dp"
+                    android:textColor="@color/white"
+                    android:text="Donde la Calidad y la Herramienta se Encuentran: Los Tres Chinos."/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

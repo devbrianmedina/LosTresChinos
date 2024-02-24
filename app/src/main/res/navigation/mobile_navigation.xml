@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.itess701.lostreschinos.ui.home.HomeFragment"
+        android:label="Principal"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_support"
+        android:name="com.itess701.lostreschinos.ui.support.SupportFragment"
+        android:label="Soporte"
+        tools:layout="@layout/fragment_support" />
+
+    <fragment
+        android:id="@+id/nav_contact"
+        android:name="com.itess701.lostreschinos.ui.contact.ContactFragment"
+        android:label="Contacto"
+        tools:layout="@layout/fragment_contact" />
+
+    <fragment
+        android:id="@+id/nav_guarantee"
+        android:name="com.itess701.lostreschinos.ui.guarantee.GuaranteeFragment"
+        android:label="Garantias"
+        tools:layout="@layout/fragment_guarantee" />
+
+    <fragment
+        android:id="@+id/nav_categories"
+        android:name="com.itess701.lostreschinos.ui.categories.CategoriesFragment"
+        android:label="Categorias"
+        tools:layout="@layout/fragment_categories" />
+
+    <fragment
+        android:id="@+id/nav_products"
+        android:name="com.itess701.lostreschinos.ui.products.ProductsFragment"
+        android:label="Productos"
+        tools:layout="@layout/fragment_products" />
+
+    <fragment
+        android:id="@+id/nav_cart"
+        android:name="com.itess701.lostreschinos.ui.cart.CartFragment"
+        android:label="Carrito"
+        tools:layout="@layout/fragment_cart" />
+</navigation>

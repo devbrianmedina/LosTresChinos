@@ -1,0 +1,80 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/rounded_corners"
+    android:elevation="4dp"
+    android:layout_margin="10dp"
+    android:layout_marginBottom="8dp">
+
+    <!-- Imagen del Producto -->
+    <ImageView
+        android:id="@+id/imgProductCart"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:scaleType="centerCrop"
+        android:layout_margin="5dp"
+        android:src="@drawable/banner_contact"/>
+
+    <!-- Título del Producto -->
+    <TextView
+        android:id="@+id/tvNameProductCart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nombre del Producto"
+        android:padding="8dp"
+        android:textSize="24sp"
+        android:textColor="@android:color/black"/>
+
+    <!-- Código del Producto -->
+    <TextView
+        android:id="@+id/tvCodeProductCart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Código: 12345"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
+        android:paddingBottom="8dp"
+        android:textSize="18sp"
+        android:textColor="@android:color/darker_gray"/>
+
+    <!-- Precio del Producto -->
+    <TextView
+        android:id="@+id/tvPriceProductCart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Precio: $19.99"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
+        android:paddingBottom="8dp"
+        android:textSize="18sp"
+        android:textColor="?attr/colorAccent"/>
+
+    <!-- Botones para Agregar al Carrito y Comprar Ahora -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="20dp"
+        android:layout_marginHorizontal="10dp">
+
+        <Button
+            android:id="@+id/btnBuyNowProductCart"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="Comprar Ahora"
+            android:backgroundTint="@color/black"/>
+
+        <ImageButton
+            android:id="@+id/btnAddToCartProductCart"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/ic_shopping_cart"
+            android:background="?android:attr/selectableItemBackground"
+            android:contentDescription="Agregar al Carrito"/>
+    </LinearLayout>
+</LinearLayout>

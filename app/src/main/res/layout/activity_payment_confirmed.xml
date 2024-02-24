@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.paymentconfirmed.PaymentConfirmedActivity"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <!-- Imagen de pago confirmado -->
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ok"
+        android:layout_marginTop="32dp"
+        android:contentDescription="Pago Confirmado"/>
+
+    <!-- Texto de pago confirmado con tarjeta y fecha -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pago Confirmado"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Con tarjeta **** **** **** 1234\nFecha: 01/23"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Botón de regresar al inicio -->
+    <Button
+        android:id="@+id/btnHomePaymentConfirmed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Regresar al Inicio"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:backgroundTint="@color/black"
+        android:layout_marginTop="32dp"/>
+
+</LinearLayout>
